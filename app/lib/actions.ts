@@ -19,4 +19,4 @@ export const logout = async () => {
   'use server';
 
   cookies().delete('user');
-};
+}
